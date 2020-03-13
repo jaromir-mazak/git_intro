@@ -3,8 +3,8 @@
 usethis::git_vaccinate()
 
 
-install.packages("devtools")
-install.packages("remotes")
+install.packages("devtools") # necessary for working with packages
+install.packages("remotes") # part of devtools, can be installed separately
 
 remotes::install_github("scholaempirica/reschola") # installing packages from github, not CRAN
 

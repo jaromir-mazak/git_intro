@@ -11,3 +11,5 @@ remotes::install_github("scholaempirica/reschola") # installing packages from gi
 devtools::find_rtools()
 
 usethis::use_github()
+
+usethis::edit_r_environ()
